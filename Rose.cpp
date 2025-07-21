@@ -165,20 +165,6 @@ double f(vec2 fragCoord) {
         return shading(pos, gradient(pos), eye);
 }
 
-// int main(int argc, char* argv[]) {
-//     getchar();
-
-//     for (int y = 0; y < 80; y++) {
-//         for (int x = 0; x < 160; x++)
-//             putchar("  .,-:;+=*#@"[(int)(f(make2((x / 160.0 - 0.5) * 2.0, (y / 80.0 - 0.5) * -2.0)) * 12.0)]);
-//         putchar('\n');
-//     }
-//     system("color 0c");
-
-//     getchar();
-
-//     return 0;
-// }
 int main(int argc, char* argv[]) {
     // 设置控制台颜色
     system("color 0c");
